@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:genelmenu/detail.dart';
-import 'package:genelmenu/dosyaislemleri.dart';
-import 'package:genelmenu/home.dart';
-import 'package:genelmenu/setting.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
@@ -33,7 +29,7 @@ class _JsonMainState extends State<JsonMain> {
     print(cevap.statusCode);
     if(cevap.statusCode==200){
       print(cevap.statusCode);
-      print('tamam35');
+      print('tamam3535');
     }
     setState(() {
       title=post.id.toString();
