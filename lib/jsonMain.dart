@@ -33,7 +33,7 @@ class _JsonMainState extends State<JsonMain> {
     print(cevap.statusCode);
     if(cevap.statusCode==200){
       print(cevap.statusCode);
-      print('tamam');
+      print('tamam35');
     }
     setState(() {
       title=post.id.toString();
